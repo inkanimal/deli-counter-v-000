@@ -6,7 +6,7 @@ def line(katz_deli)
     katz_deli.each_with_index {|name, index| puts name; puts index}
 end
 end
-end
+
  #  string = "The line is currently: "
   # for (var i = 0; i < line.length; i++) 
   #   string += "#{i + 1}. #{line[i]}"
