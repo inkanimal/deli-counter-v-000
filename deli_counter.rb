@@ -5,7 +5,7 @@ def line(katz_deli)
      katz_deli.each_with_index do |name, index| 
      current_line.push("#{index + 1}. #{name} ")
     elsif
-     current_line.length -1 !== "#{name}"
+     current_line.length -1 !"#{name}"
      return ""
    end
      puts "The line is currently: #{current_line.join("")}"
