@@ -4,12 +4,13 @@ def line(katz_deli)
      current_line []
      katz_deli.each_with_index do |name, index| 
      current_line.push("The line is currently: #{index + 1}. #{name}")
+    end
      puts current_line
    end
   #  puts "The line is currently empty."
   #end
  end
-end
+#end
 
 def now_serving(katz_deli) 
   #if(!line.length)
