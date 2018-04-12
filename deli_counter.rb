@@ -6,8 +6,8 @@ def line(katz_deli)
      current_line.push("The line is currently: #{index + 1}. #{name}")
     end
      puts current_line
-   end
-  #  puts "The line is currently empty."
+   else
+  puts "The line is currently empty."
   #end
  end
 #end
