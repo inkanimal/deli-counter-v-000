@@ -8,7 +8,7 @@ def line(katz_deli)
   end
  
   end
-end
+
 
 def now_serving(katz_deli) 
   #if(!line.length)
