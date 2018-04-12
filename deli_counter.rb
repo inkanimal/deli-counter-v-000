@@ -7,7 +7,7 @@ def line(katz_deli)
      puts "The line is currently: #{index + 1}. #{name}"
   end
     # puts other_deli
-  #end
+  end
 end
 
 def now_serving(katz_deli) 
