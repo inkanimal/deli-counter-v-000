@@ -7,10 +7,10 @@ def line(katz_deli)
     end
      puts current_line
    else
-  puts "The line is currently empty."
+     puts "The line is currently empty."
   #end
  end
-#end
+end
 
 def now_serving(katz_deli) 
   #if(!line.length)
