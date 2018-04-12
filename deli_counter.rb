@@ -10,7 +10,7 @@ def line(katz_deli)
   end
     #puts other_deli
   #end
-#end
+end
 
 def now_serving(katz_deli) 
   #if(!line.length)
@@ -25,4 +25,4 @@ end
     puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
-
+end
