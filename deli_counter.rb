@@ -5,20 +5,9 @@ def line(katz_deli)
   else
     katz_deli.each_with_index do |name, index| 
      current_line.push("The line is currently: #{index + 1}. #{name}")
-end
-   puts current_line
-end
-
- #  string = "The line is currently: "
-  # for (var i = 0; i < line.length; i++) 
-  #   string += "#{i + 1}. #{line[i]}"
-  #   if (line.length - 1 !== i) 
-  #     string += ", "
-    
-    # if this index num is the LAST index num, DON'T add that comma
-   # string += "#{i + 1}. #{katz_deli[i]}."
-  
-  #puts string
+  end
+    puts current_line
+  end
 end
 
 def now_serving(katz_deli) 
