@@ -4,9 +4,6 @@ def line(katz_deli)
      current_line = [] 
      katz_deli.each_with_index do |name, index| 
      current_line.push("#{index + 1}. #{name} ")
-    elsif
-     current_line.length -1 
-     return ""
    end
      puts "The line is currently: #{current_line.join("")}"
    else
