@@ -1,6 +1,6 @@
 # Write your code here.
 def line(katz_deli) 
-   if katz_deli.length > 1 
+   if katz_deli.length >= 1 
      current_line []
      katz_deli.each_with_index do |name, index| 
      current_line.push("The line is currently: #{index + 1}. #{name}")
